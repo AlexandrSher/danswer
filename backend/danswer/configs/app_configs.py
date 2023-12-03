@@ -256,7 +256,6 @@ BACKGROUND_JOB_EMBEDDING_MODEL_SERVER_HOST = (
 #####
 # Miscellaneous
 #####
-PERSONAS_YAML = "./danswer/chat/personas.yaml"
 DYNAMIC_CONFIG_STORE = os.environ.get(
     "DYNAMIC_CONFIG_STORE", "FileSystemBackedDynamicConfigStore"
 )
